@@ -1,0 +1,1 @@
+cmd_/home/pi/Driver/GPIO/interface.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Driver/GPIO/interface.ko /home/pi/Driver/GPIO/interface.o /home/pi/Driver/GPIO/interface.mod.o ;  true

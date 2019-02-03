@@ -1,0 +1,1 @@
+cmd_/home/pi/Driver/GPIO/first_interface_init.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Driver/GPIO/first_interface_init.ko /home/pi/Driver/GPIO/first_interface_init.o /home/pi/Driver/GPIO/first_interface_init.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/Driver/GPIO/first_interface_exit.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Driver/GPIO/first_interface_exit.ko /home/pi/Driver/GPIO/first_interface_exit.o /home/pi/Driver/GPIO/first_interface_exit.mod.o ;  true
