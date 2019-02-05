@@ -1,8 +1,8 @@
-cmd_/home/pi/Driver/GPIO/first_interface_init.o := gcc -Wp,-MD,/home/pi/Driver/GPIO/.first_interface_init.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/4.9/include -I./arch/arm/include -I./arch/arm/include/generated/uapi -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time  -DMODULE  -DKBUILD_BASENAME='"first_interface_init"'  -DKBUILD_MODNAME='"example_simple_module"' -c -o /home/pi/Driver/GPIO/.tmp_first_interface_init.o /home/pi/Driver/GPIO/first_interface_init.c
+cmd_/home/pi/Driver/GPIO/example_simple_module_02.o := gcc -Wp,-MD,/home/pi/Driver/GPIO/.example_simple_module_02.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/4.9/include -I./arch/arm/include -I./arch/arm/include/generated/uapi -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time  -DMODULE  -DKBUILD_BASENAME='"example_simple_module_02"'  -DKBUILD_MODNAME='"example_simple_module_02"' -c -o /home/pi/Driver/GPIO/.tmp_example_simple_module_02.o /home/pi/Driver/GPIO/example_simple_module_02.c
 
-source_/home/pi/Driver/GPIO/first_interface_init.o := /home/pi/Driver/GPIO/first_interface_init.c
+source_/home/pi/Driver/GPIO/example_simple_module_02.o := /home/pi/Driver/GPIO/example_simple_module_02.c
 
-deps_/home/pi/Driver/GPIO/first_interface_init.o := \
+deps_/home/pi/Driver/GPIO/example_simple_module_02.o := \
   include/linux/init.h \
     $(wildcard include/config/debug/rodata.h) \
   include/linux/compiler.h \
@@ -446,6 +446,6 @@ deps_/home/pi/Driver/GPIO/first_interface_init.o := \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
 
-/home/pi/Driver/GPIO/first_interface_init.o: $(deps_/home/pi/Driver/GPIO/first_interface_init.o)
+/home/pi/Driver/GPIO/example_simple_module_02.o: $(deps_/home/pi/Driver/GPIO/example_simple_module_02.o)
 
-$(deps_/home/pi/Driver/GPIO/first_interface_init.o):
+$(deps_/home/pi/Driver/GPIO/example_simple_module_02.o):

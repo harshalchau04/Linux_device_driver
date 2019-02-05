@@ -1,1 +1,0 @@
-cmd_/home/pi/Driver/GPIO/example_simple_module.o := ld -EL    -r -o /home/pi/Driver/GPIO/example_simple_module.o /home/pi/Driver/GPIO/first_interface_init.o /home/pi/Driver/GPIO/first_interface_exit.o 

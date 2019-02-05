@@ -1,0 +1,1 @@
+cmd_/home/pi/Driver/GPIO/example_simple_module_02.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Driver/GPIO/example_simple_module_02.ko /home/pi/Driver/GPIO/example_simple_module_02.o /home/pi/Driver/GPIO/example_simple_module_02.mod.o ;  true
