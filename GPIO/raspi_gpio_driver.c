@@ -1,17 +1,17 @@
 #include<linux/module.h>
-#include<iinux/kernel.h>
+#include<linux/init.h>
 
 static int __init
 raspi_gpio_init(void)
 {
-	printf(KERN_ALERT "INSIDE %s YES I CAN WRITE DRIVER",__FUNCTION__);
+	printk(KERN_ALERT "INSIDE %s YES I CAN WRITE DRIVER",__FUNCTION__);
 	return 0;
 }
 
 static void __exit
 raspi_gpio_exit(void)
 {
-	 printf(KERN_ALERT "INSIDE %s YES I DONE IT!!!!!!",__FUNCTION__);
+	 printk(KERN_ALERT "INSIDE %s YES I DONE IT!!!!!!",__FUNCTION__);
 	 return 0;
 }
 
