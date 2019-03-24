@@ -1,0 +1,1 @@
+cmd_/home/pi/Driver/GPIO/raspi_gpio_driver.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Driver/GPIO/raspi_gpio_driver.ko /home/pi/Driver/GPIO/raspi_gpio_driver.o /home/pi/Driver/GPIO/raspi_gpio_driver.mod.o ;  true
