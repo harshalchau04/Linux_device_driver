@@ -1,0 +1,20 @@
+#include<linux/module.h>
+#include<linux/moduleparam.h>
+#include<linux/init.h>
+#include<linux/kernel.h>
+
+enum irq_type
+{
+	IRQ_TYPE_LEVEL;
+	IRQ_TYPE_EDGE;
+	IRQ_TYPE_POLL;
+};
+
+static int irq_type=IRQ_TYPE_LEVEL;
+
+static int arguments(void)
+{
+	printk(KERN_ALERT "");
+	return 0;
+}
+
